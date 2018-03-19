@@ -1,9 +1,8 @@
 require 'pry'
 require 'date'
 
-t = datetime.now
+t = Time.new
 
 if t.hour >= 12
   puts "WOO"
 end
-  
